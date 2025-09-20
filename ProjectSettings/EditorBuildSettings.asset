@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/New Scene.unity
+    guid: 813290a0fa35d7c488eee39feb8083e0
+  - enabled: 1
+    path: Assets/Scenes/FirstScene.unity
+    guid: dfadb3d097cae184ea9b5b12593f8174
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoChoose.unity
+    guid: 516604dafa0960642835dbea6a4a497d
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoPlay.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoGame/PianoGameChoose.unity
+    guid: 80b8de437c39f0f4ab8e236faa9db452
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoGame/PianoGamesmallbee.unity
+    guid: 7857f9c3b8276d34599b592a12cd4567
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoGame/PianoGamesmallstart.unity
+    guid: 4925ecb2f8561834994801d245f37ce8
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoGame/PianoGame2tigers.unity
+    guid: 84d7b4b3bd0854b4abe39dc136e745c7
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoGame/PianoGameTrain.unity
+    guid: 9d923a635ffc21c4a86b1923e5f138cd
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoGame/PianoGameBridge.unity
+    guid: cba06846ed1eacc488b6895ce1152af5
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoClass/PianoClassChoose.unity
+    guid: fa76d5c27620ea44d8d76a779e158697
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoClass/Piano class small bee.unity
+    guid: 3d301b1491678b44190a09b8189e84ee
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoClass/Piano class little star.unity
+    guid: 4f6df7f479a43a34681d34fdcace36c1
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoClass/Piano class bridge.unity
+    guid: 556c57980bd8b7940898893821dd4875
+  - enabled: 1
+    path: Assets/Scenes/Piano/PianoClass/Piano class train.unity
+    guid: b15cbf8a772b16b4ca84172971928c46
+  - enabled: 1
+    path: Assets/Scenes/Drum/DrumChoose.unity
+    guid: c85f85e1c3f04c0448778582276e04a3
+  - enabled: 1
+    path: Assets/Scenes/Drum/DrumPlay.unity
+    guid: a658d584959e12149a78037610ab8aef
+  - enabled: 1
+    path: Assets/Scenes/MusicClass/MusicTheoryChoose.unity
+    guid: 837d27a98c1b397438063acf1157419a
+  - enabled: 1
+    path: Assets/Scenes/MusicClass/MusicExam/MusicExam.unity
+    guid: 8863936a90580b14b8332f71e9a1a8fa
+  - enabled: 1
+    path: "Assets/Scenes/\u5C0F\u865F/Trumpet Choose.unity"
+    guid: 6f2b1e134e6405e45bead4a4ee3a6c77
+  - enabled: 1
+    path: "Assets/Scenes/\u5C0F\u865F/TrumpetTeachchoose.unity"
+    guid: 2bb13a56dd405cd4d9f986a993c0a1d9
+  - enabled: 1
+    path: "Assets/Scenes/\u5C0F\u865F/trumpetteach.unity"
+    guid: 5dcfa7c6b813975439a437698be304f5
+  - enabled: 1
+    path: "Assets/Scenes/\u5C0F\u865F/trumpetteachupdown.unity"
+    guid: 60fc43df8ae0f2545943843dc5f54faf
+  - enabled: 1
+    path: "Assets/Scenes/\u5C0F\u865F/trumpettest.unity"
+    guid: 2e7cdac36b2c3f84a977341f7aeebfb3
+  m_configObjects: {}

@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f875a4bb6aeb38e47968c2e241c42374, type: 3}
+  m_Name: QuestionDatabase
+  m_EditorClassIdentifier: 
+  questions:
+  - questionText: "C \u5927\u8ABF\u97F3\u968E\u4E2D\u6C92\u6709\u51FA\u73FE\u54EA\u4E00\u500B\u5347\u8A18\u865F\u6216\u964D\u8A18\u865F\uFF1F"
+    questionImage: {fileID: 21300000, guid: a60b5cfe2ee21e14f8ca2fe44b6f6499, type: 3}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u5347 F (#F)"
+    - "B. \u5347 C (#C)"
+    - "C. \u964D B (bB)"
+    - "D. \u90FD\u6C92\u6709"
+    correctIndex: 3
+    difficulty: 1
+  - questionText: "\u4EE5\u4E0B\u54EA\u4E00\u500B\u662F\u5B8C\u5168\u4E94\u5EA6\u7684\u4F8B\u5B50\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. C \u5230 G"
+    - "B. D \u5230 A#"
+    - "C. E \u5230 B"
+    - "D. F \u5230 C#"
+    correctIndex: 0
+    difficulty: 0
+  - questionText: "\u54EA\u4E00\u500B\u8ABF\u6027\u64C1\u6709 2 \u500B\u5347\u8A18\u865F\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. D \u5927\u8ABF "
+    - "B. G \u5927\u8ABF "
+    - "C. A \u5927\u8ABF"
+    - "D. F \u5927\u8ABF"
+    correctIndex: 0
+    difficulty: 1
+  - questionText: "\u56DB\u56DB\u62CD\u4E2D\uFF0C\u4E00\u500B\u5168\u97F3\u7B26\u7B49\u65BC\u5E7E\u62CD\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. 2 \u62CD"
+    - "B. 3 \u62CD"
+    - "C. 4 \u62CD"
+    - "D. 1 \u62CD"
+    correctIndex: 2
+    difficulty: 1
+  - questionText: "\u300CDorian\u300D\u97F3\u968E\u5C6C\u65BC\u54EA\u4E00\u985E\u97F3\u968E\uFF1F"
+    questionImage: {fileID: -1835158887, guid: 9914fcec52a3f0e48bb6a948b6badc0a, type: 3}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u81EA\u7136\u5C0F\u97F3\u968E"
+    - "B. \u6559\u6703\u8ABF\u5F0F\uFF08\u53E4\u6559\u6703\u97F3\u968E\uFF09"
+    - "C. \u548C\u8072\u5C0F\u97F3\u968E"
+    - "D. \u4E94\u8072\u97F3\u968E"
+    correctIndex: 1
+    difficulty: 1
+  - questionText: "\u5728 6/8 \u62CD\u7684\u6A02\u66F2\u4E2D\uFF0C\u6BCF\u5C0F\u7BC0\u901A\u5E38\u6709\u5E7E\u500B\u300C\u5F37\u62CD\u300D\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. 6 \u500B"
+    - "B. 2 \u500B"
+    - "C. 3 \u500B"
+    - "D. 1 \u500B"
+    correctIndex: 1
+    difficulty: 0
+  - questionText: "\u5728\u56DB\u56DB\u62CD\u4E2D\uFF0C\u5169\u500B\u516B\u5206\u4F11\u6B62\u7B26\u5408\u8D77\u4F86\u7B49\u65BC\u591A\u5C11\u62CD\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. 1 \u62CD"
+    - "B. 0.5 \u62CD"
+    - "C. 2 \u62CD"
+    - "D. 1.5 \u62CD"
+    correctIndex: 0
+    difficulty: 0
+  - questionText: "\u7BA1\u6A02\u5718\u4E2D\u7D93\u5E38\u4F7F\u7528\u7684\u300C\u6253\u64CA\u6A02\u5668\u300D\u4E0D\u5305\u62EC\u4E0B\u5217\u54EA\u4E00\u9805\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 8300000, guid: 0fbc78dd43796a543beb3aef851b149f, type: 3}
+    options:
+    - "A.\u5B9A\u97F3\u9F13\uFF08Timpani\uFF09"
+    - "B.\u5C0F\u9F13\uFF08Snare Drum\uFF09"
+    - "C.\u4E09\u89D2\u9435\uFF08Triangle\uFF09"
+    - "D.\u4E2D\u63D0\u7434\uFF08Viola\uFF09"
+    correctIndex: 1
+    difficulty: 0
+  - questionText: "\u4EE5\u4E0B\u54EA\u500B\u7BC0\u594F\u7B26\u865F\u7684\u6642\u503C\u6700\u77ED\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u5341\u516D\u5206\u97F3\u7B26"
+    - "B. \u516B\u5206\u97F3\u7B26"
+    - "C. \u56DB\u5206\u97F3\u7B26"
+    - "D. \u4E8C\u5206\u97F3\u7B26"
+    correctIndex: 0
+    difficulty: 0
+  - questionText: "\u4E0B\u5217\u54EA\u4E00\u9805\u4E0D\u662F\u6728\u7BA1\u6A02\u5668\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u55AE\u7C27\u7BA1\uFF08Clarinet\uFF09"
+    - "B. \u9577\u7B1B\uFF08Flute\uFF09"
+    - "C. \u5C0F\u865F\uFF08Trumpet\uFF09"
+    - "D. \u96D9\u7C27\u7BA1\uFF08Oboe\uFF09"
+    correctIndex: 2
+    difficulty: 0
+  - questionText: "\u85A9\u514B\u65AF\u98A8\u96D6\u7136\u662F\u91D1\u5C6C\u88FD\u7684\uFF0C\u4F46\u6B78\u985E\u70BA\u4EC0\u9EBC\u6A02\u5668\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u9285\u7BA1\u6A02\u5668"
+    - "B. \u6728\u7BA1\u6A02\u5668"
+    - "C. \u6253\u64CA\u6A02\u5668"
+    - "D. \u96FB\u5B50\u6A02\u5668"
+    correctIndex: 1
+    difficulty: 0
+  - questionText: "\u4EE5\u4E0B\u54EA\u4E00\u7A2E\u6A02\u5668\u4F7F\u7528\u300C\u96D9\u7C27\u7247\u300D\u767C\u8072\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u55AE\u7C27\u7BA1"
+    - "B. \u85A9\u514B\u65AF\u98A8"
+    - "C. \u96D9\u7C27\u7BA1"
+    - "D. \u5C0F\u865F"
+    correctIndex: 2
+    difficulty: 0
+  - questionText: "\u5728\u56DB\u56DB\u62CD\u4E2D\uFF0C\u4E00\u500B\u9644\u9EDE\u4E8C\u5206\u97F3\u7B26\u7684\u6642\u503C\u662F\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. 2 \u62CD"
+    - "B. 3 \u62CD"
+    - "C. 1.5 \u62CD"
+    - "D. 2.5 \u62CD"
+    correctIndex: 1
+    difficulty: 0
+  - questionText: "\u4E0B\u5217\u54EA\u4E00\u9805\u5C6C\u65BC\u8907\u5408\u62CD\u865F\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - A. 3/4
+    - B. 4/4
+    - C. 6/8
+    - D. 2/2
+    correctIndex: 2
+    difficulty: 0
+  - questionText: "\u4EE5\u4E0B\u54EA\u7A2E\u6A02\u5668\u901A\u5E38\u4E0D\u662F\u79FB\u8ABF\u6A02\u5668\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u85A9\u514B\u65AF\u98A8"
+    - "B. \u6CD5\u570B\u865F"
+    - "C. \u9577\u7B1B"
+    - "D. \u5C0F\u865F"
+    correctIndex: 2
+    difficulty: 0
+  - questionText: "\u4E2D\u97F3\u865F\uFF08Euphonium\uFF09\u5C6C\u65BC\u54EA\u4E00\u985E\u6A02\u5668\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u6728\u7BA1\u6A02\u5668"
+    - "B. \u9285\u7BA1\u6A02\u5668"
+    - "C. \u6253\u64CA\u6A02\u5668"
+    - "D. \u5F26\u6A02\u5668"
+    correctIndex: 1
+    difficulty: 0
+  - questionText: "\u4EE5\u4E0B\u54EA\u4E00\u7A2E\u6A02\u5668\u901A\u5E38\u9700\u8981\u4F7F\u7528\u300C\u55AE\u7C27\u7247\u300D\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u96D9\u7C27\u7BA1"
+    - "B. \u9577\u7B1B"
+    - "C. \u85A9\u514B\u65AF\u98A8"
+    - "D. \u5C0F\u865F"
+    correctIndex: 2
+    difficulty: 0
+  - questionText: "\u54EA\u4E00\u7A2E\u7BA1\u6A02\u5668\u7684\u5439\u5634\u5F62\u72C0\u8207\u5176\u4ED6\u4E0D\u540C\uFF0C\u5C6C\u65BC\u6A6B\u5439\u800C\u975E\u76F4\u5439\uFF1F"
+    questionImage: {fileID: 0}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u9577\u7B1B"
+    - "B. \u55AE\u7C27\u7BA1"
+    - "C. \u85A9\u514B\u65AF\u98A8"
+    - "D. \u96D9\u7C27\u7BA1"
+    correctIndex: 0
+    difficulty: 0
+  - questionText: "\u8ACB\u554F\u4E0B\u5217\u5716\u7247\u662F\u751A\u9EBC\u6A02\u5668?"
+    questionImage: {fileID: 21300000, guid: 8ee1ca9b344515d4f9957db6412a1e37, type: 3}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u9577\u7B1B"
+    - "B. \u55AE\u7C27\u7BA1"
+    - "C. \u8607\u838E\u865F"
+    - "D. \u96D9\u7C27\u7BA1"
+    correctIndex: 2
+    difficulty: 0
+  - questionText: "\u4E0B\u5217\u54EA\u4E00\u7A2E\u6A02\u5668\u97F3\u57DF\u6700\u9AD8\uFF1F?"
+    questionImage: {fileID: 21300000, guid: 8ee1ca9b344515d4f9957db6412a1e37, type: 3}
+    questionAudio: {fileID: 0}
+    options:
+    - "A. \u4F4E\u97F3\u85A9\u514B\u65AF\u98A8"
+    - "B. \u4E0A\u4F4E\u97F3\u865F"
+    - "C. \u77ED\u7B1B"
+    - "D. \u4E2D\u97F3\u85A9\u514B\u65AF\u98A8"
+    correctIndex: 2
+    difficulty: 0
