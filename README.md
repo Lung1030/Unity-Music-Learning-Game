@@ -1,2 +1,61 @@
-# Unity-Music-Learning-Game
-Music education game built with Unity 2022.3.58f1, featuring piano, drum, and trumpet simulation, note judgment, and quiz system.
+# 🎵 音樂教育遊戲 (Unity 專題實作)
+
+本專案為國立臺東大學 **資訊工程學系專題實作**，  
+使用 **Unity 2022.3.58f1 (LTS)** 開發，  
+目標是設計一款能夠結合遊戲化互動的 **音樂學習平台**，  
+讓玩家在遊戲中學習樂器演奏與音樂基礎知識。  
+
+---
+
+## ✨ 專案特色
+- **三種樂器模擬**
+  - 🎹 鋼琴（88 鍵，支援滑動模式與多點觸控）
+  - 🥁 爵士鼓（基礎鼓組操作）
+  - 🎺 小號（活塞按鍵系統，含升降記號判斷）
+- **鋼琴音樂遊戲模式**
+  - 下落式音符判定
+  - 判定線精準度檢測
+  - 支援和弦、多音符與長音符判斷
+- **題庫測驗系統**
+  - 題型支援文字、圖片、音效
+  - 隨機排序選項，題目依難度分類（基礎、進階、混合）
+  - 結束後顯示答題統計與錯題回顧
+- **額外功能**
+  - RPG 探索場景（可操作角色進入教室切換場景）
+  - UI 動畫與模式切換
+  - 答題與音符錯誤記錄
+
+---
+
+## 🛠️ 技術細節
+- **遊戲引擎**：Unity 2022.3.58f1 (LTS)
+- **開發語言**：C# (Unity Script)
+- **版本控制**：Git + GitHub
+- **支援平台**：Android、iOS(注意因為當初做的時候只依照平板的尺寸去做的，因此手機可能出現跑版的狀況)
+- **特殊注意事項 (iOS Build)**：
+  - 若使用 `Microphone` 類別，需在 **Player Settings → iOS → Microphone Usage Description** 加入說明文字，否則無法建置。
+
+---
+
+## 📂 專案結構
+Assets/
+├── Scripts/ # 遊戲核心程式碼（鋼琴、題庫、小號、判定系統等）
+├── Scenes/ # Unity 場景檔（主選單、鋼琴、爵士鼓、小號、RPG 地圖）
+├── MusicExam/ # 存放樂理測驗的prefab、問題等。
+└── 其餘的是下載過來的音效、圖片、字體等檔案。
+
+
+---
+
+## 🚀 使用方式
+
+### 前置需求
+- 安裝 **Unity 2022.3.58f1** (建議 LTS 版本)
+- 安裝 Git
+
+### 下載與開啟專案
+```bash
+# 下載專案
+git clone https://github.com/Lung1030/Unity-Music-Learning-Game.git
+
+# 透過 Unity Hub 匯入並打開專案
