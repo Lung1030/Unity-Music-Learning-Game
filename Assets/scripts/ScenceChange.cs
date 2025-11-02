@@ -48,8 +48,8 @@ public class ScenceChange : MonoBehaviour
     }
     public void OpenWebsite()
     {
-        // SceneManager.LoadScene("webview1");
-        Application.OpenURL("https://lnu.nttu.edu.tw/"); 
+        // SceneManager.LoadScene("WebView");
+        Application.OpenURL("https://cb85be395ce2.ngrok-free.app"); 
     }
     // HomeButton 事件：切換到 FirstScene 場景
     public void GoToFirstScene()
