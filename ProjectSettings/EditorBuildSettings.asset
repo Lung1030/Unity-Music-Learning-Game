@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WebViewHtml.unity
     guid: 0b50d08ac0dba82488400d1651952c41
-  - enabled: 0
-    path: Assets/Scenes/WebView.unity
-    guid: ea857480dfdd6af47b31ff9ccaf55005
   - enabled: 1
     path: Assets/Scenes/Piano/PianoChoose.unity
     guid: 516604dafa0960642835dbea6a4a497d
