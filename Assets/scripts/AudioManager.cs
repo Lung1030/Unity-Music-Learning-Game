@@ -35,7 +35,7 @@ public class AudioManager : MonoBehaviour
         audioSource.playOnAwake = false;
         audioSource.loop = false;
         audioSource.clip = null;
-        audioSource.volume = 0.4f; // ← 預設音量（防止每次不同）
+        audioSource.volume = 0.6f; // ← 預設音量（防止每次不同）
 
         // 一開始就訂閱場景切換
         SceneManager.sceneLoaded += OnSceneLoaded;

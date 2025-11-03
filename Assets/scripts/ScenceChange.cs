@@ -48,8 +48,9 @@ public class ScenceChange : MonoBehaviour
     }
     public void OpenWebsite()
     {
-        // SceneManager.LoadScene("WebView");
-        Application.OpenURL("https://cb85be395ce2.ngrok-free.app"); 
+        
+        StartCoroutine(FadeAndLoad("WebViewHtml"));
+        // Application.OpenURL("https://cb85be395ce2.ngrok-free.app"); 
     }
     // HomeButton 事件：切換到 FirstScene 場景
     public void GoToFirstScene()
