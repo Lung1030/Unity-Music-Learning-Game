@@ -20,6 +20,11 @@
   - 題型支援文字、圖片、音效
   - 隨機排序選項，題目依難度分類（基礎、進階、混合）
   - 結束後顯示答題統計與錯題回顧
+-** AI 音樂知識問答 (NEW!)**
+  - 整合 RAG (Retrieval-Augmented Generation) AI 聊天機器人。
+  - Unity (C# UnityWebRequest) 打造前端聊天室 UI 介面。
+  - Python (Flask) 搭建後端 API，載入本地 Gemma 模型。
+  - 支援「思考中...」狀態、打字機特效、對話自動捲動。
 - **額外功能**
   - UI 動畫與模式切換
   - 答題與音符錯誤記錄
