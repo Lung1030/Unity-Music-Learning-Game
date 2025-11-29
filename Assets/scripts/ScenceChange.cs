@@ -48,10 +48,17 @@ public class ScenceChange : MonoBehaviour
     }
     public void OpenWebsite()
     {
-        
+
         StartCoroutine(FadeAndLoad("WebViewHtml"));
         // Application.OpenURL("https://cb85be395ce2.ngrok-free.app"); 
     }
+    public void OpenWebsite123()
+    {
+
+        Application.OpenURL("ian0ai://");
+         
+    }
+    
     // HomeButton 事件：切換到 FirstScene 場景
     public void GoToFirstScene()
     {
