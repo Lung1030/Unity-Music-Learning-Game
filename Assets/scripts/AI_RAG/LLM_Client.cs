@@ -37,9 +37,10 @@ public class LLM_Client : MonoBehaviour
     #endregion
 
     [Header("伺服器設定 (Server Settings)")]
-    [Tooltip("後端 API 的完整網址，包含 /ask 路徑")]
+    [Tooltip("後端 API 的完整網址，包含 /ask 路徑 (例如 ngrok 網址)")]
     [SerializeField]
-    private string apiUrl = "https://linyounttu.dpdns.org/ask";
+    // 【修改處】這裡換回您的 ngrok 預設網址範例
+    private string apiUrl = "https://your-ngrok-id.ngrok-free.dev/ask";
 
     [Header("事件回調 (Events)")]
     [Tooltip("當成功收到 AI 回覆時觸發")]
@@ -79,12 +80,15 @@ public class LLM_Client : MonoBehaviour
             // 設定標準標頭
             request.SetRequestHeader("Content-Type", "application/json");
 
-            // 【重要】設定自定義 User-Agent 以通過 Cloudflare 防火牆規則
-            // 這是避免被伺服器視為機器人或遭受 403/405 錯誤的關鍵
+            // 【重要】針對 ngrok 環境，設定跳過瀏覽器警告頁面
+            // 若不設定此項，Unity 會抓到 ngrok 的 HTML 警告網頁而非 JSON 資料
+            request.SetRequestHeader("ngrok-skip-browser-warning", "true");
+
+            // 設定 User-Agent，保留您的 MusicAI 識別
             request.SetRequestHeader("User-Agent", "MusicAI/1.0 (lnu)");
 
             // 開發除錯用 Log
-            Debug.Log($"[LLM_Client] 正在發送請求至: {apiUrl}");
+            Debug.Log($"[LLM_Client] 正在發送請求至 (ngrok 模式): {apiUrl}");
 
             // 等待請求完成
             yield return request.SendWebRequest();
@@ -123,7 +127,8 @@ public class LLM_Client : MonoBehaviour
         }
         catch (System.Exception ex)
         {
-            Debug.LogError($"[LLM_Client] JSON 解析錯誤: {ex.Message}");
+            // 修改錯誤訊息提示，提醒可能是抓到非 JSON 內容
+            Debug.LogError($"[LLM_Client] JSON 解析錯誤 (請檢查網址或 ngrok 狀態): {ex.Message}");
             OnResponseReceived?.Invoke("系統錯誤：無法解析伺服器回應。");
         }
     }
